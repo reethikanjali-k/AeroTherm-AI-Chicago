@@ -16,6 +16,9 @@ Remote Sensing Data: Google Earth Engine API
 
 Data Visualization: Matplotlib (Spatial Mapping)
 
+### Building Footprints
+![Buildings](images/buildings_map.png)
+
 ## 📈 Data Pipeline & Methodology:
 
 Requirement Gathering: Defined "Urban Heat Island" metrics for the Chicago Loop.
@@ -26,6 +29,9 @@ Data Cleaning: Filtered satellite collections for specific summer date ranges to
 
 Comparative Analysis: Calculated mean surface temperatures for a high-density "Urban Core" vs. a "Green Space" control site.
 
+### Urban Density
+![Density](images/density_map.png)
+
 ## 💡 Analytical Insights: 
 
 The analysis revealed that the Loop (Urban Core) was slightly cooler than Lincoln Park during the observation period. As an analyst, I identified three key variables contributing to this result:
@@ -35,6 +41,9 @@ The Shading Variable: 1,238 buildings act as structural shading, reducing direct
 Geographic Mitigation: Proximity to Lake Michigan creates a "Lake Breeze" effect, serving as a natural temperature regulator for the downtown area.
 
 Material Properties: Identified a "Thermal Lag" where dense building materials heat up at a slower rate than vegetated park surfaces.
+
+### Thermal Heat Map
+![Heat Map](images/thermal_heatmap.png)
 
 ## ✅ Key Deliverables
 
